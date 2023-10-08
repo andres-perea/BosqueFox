@@ -1,0 +1,129 @@
+.bg-sena {
+    background: rgb(3, 89, 6);
+}
+
+nav {
+    position: fixed ;
+
+}
+
+#nosotros {
+    width: 100%;
+    position: relative;
+    padding: 150px 0;
+}
+
+#nosotros img {
+    width: 500px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#nosotros h1 {
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    font-size: 50px;
+    border-bottom: 2px solid rgb(3, 89, 6);
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#nosotros a {
+    padding: 14px 40px;
+    background: #545454;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    margin-top: 60px;
+    max-width: 250px;
+    transition: .5s;
+}
+
+#nosotros a:hover {
+    background: rgb(3, 89, 6);
+    border-radius: 20px;
+    max-width: 250px;
+    transform: scale(1.1);
+}
+
+#servicios {
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+
+#servicios h2 {
+    color: #545454;
+    font-size: 100;
+    border-bottom: 2px solid #0a5206;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+#servicios h2 span {
+    font-size: 54px;
+}
+
+#servicios .card-servicios {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#servicios .card-servicios::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(3, 89, 6, 0.300);
+    transition: .5s;
+}
+
+#servicios .card-servicios a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    position: absolute;
+    z-index: 9;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 250px;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
+
+#servicios .card-servicios:hover a {
+    background: #fff;
+    color: #0a5206;
+    bottom: 48%;
+}
+
+#servicios .card-servicios:hover::after {
+    background: rgba(3, 89, 6, 0.300);
+}
+
+#contacto {
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+
+}
+
+footer {
+    margin-top: 20px;
+    background: #0a5206;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+
+}
